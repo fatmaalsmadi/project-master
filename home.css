@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans' , sans-serif;
+}
+body{
+    background: #f3f5f9;
+}
+.wrapper{
+
+display: flex;
+position: relative;
+
+}
+.wrapper .Sidebar{
+position: fixed;
+width: 200px;
+height: 100%;
+background: #4b4276;
+padding: 30px 0;
+}
+.wrapper .Sidebar h1{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.wrapper .Sidebar ul li{
+padding: 15px;
+border-bottom: 1px solid rgba(0, 0,0, 0,05);
+border-top:1px solid rgba(225, 255, 255, 0.05) ;
+
+
+}
+.wrapper .Sidebar ul li a{
+color: #bdb8b7;
+display: block;
+}
+.wrapper .Sidebar ul li:hover{
+  background: #594f8d;
+}
+.wrapper .Sidebar ul li:hover a{
+color: #fff;
+
+}
+
+/* hr{
+margin-top:55px;    
+} */
+/* h1{
+    margin-top: -16px;
+    position: absolute;
+    padding: 30PX;
+    left: 1px;
+    top: 6px;
+    font-size: 30px;
+    font-family: fantasy;
+    color:white;
+  
+} */
+/* .العلمي{
+    float: right;
+    font-size:30px;
+    color:white;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    right: 30px;
+    top:5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px
+}
+.الأدبي{
+    text-decoration: none;
+    line-height: 25px;
+    color:white;
+    position: absolute;
+    padding: 30PX;
+    right:120px;
+    font-family: -webkit-pictograph;
+    top:-5px;
+    font-size: 30px
+}
+
+.الصناعي
+{
+    float: right;
+    font-size:30px;
+    color:white;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    position: absolute;
+    right: 222px;
+    top: 5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px
+
+
+}
+
+.الزراعي{
+    float: right;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    position: absolute;
+    right: 340px;
+    top: 5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+}
+.الفندقي{
+    float: right;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 25px;
+    position: absolute;
+    position: absolute;
+    right: 463px;
+    top: 5px;
+    padding: 20PX;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+}
+
+ */
+
+ p{
+  margin-top: 65px;
+  font-style: oblique;
+  font-style: oblique;
+  font-size: 60px;
+  animation: mymove 5s infinite;
+  margin-left: 260px;
+  float: left;
+
+}
+@keyframes mymove {
+  50% {text-shadow: 10px 20px 30px rgb(173, 26, 129);}
+}
+/* button{
+    border-radius: 20px;
+    width: 18%;
+    height: 95px;
+    padding: 29px;
+    font-size: 40px;
+    float: right;
+    margin-bottom: -555px;
+
+    font-family: fantasy;
+
+
+    background-color: palevioletred;
+    color: rgb(0, 0, 0);
+   } */
+   /* button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  } */ 

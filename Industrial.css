@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+.cards{
+  margin: 15px;
+  display: inline-block;
+  width: 20%;
+
+  height: 454px;
+  margin-top: 39px;
+  transition: 5s;
+  border-radius: 41px 13px;
+  box-shadow: 6px 13px 12px black;
+}
+.cards:hover{
+  /* background-color: rgb(255, 197, 226); */
+    transform: scale(1.2,1.2);
+  }
+  
+h2{
+  font-size: 5.5rem;
+  color: black;
+  margin: 5.5rem 0;
+  text-align: center;
+  font-style: normal;
+  transition: 5s;
+  /* font-family: auto; */
+  margin-top: 12px;
+}
+h1{
+  font-style: italic;
+
+}
+p{
+font-size:25px;
+font-style: italic;
+}
+
+
+
+
+.image img{
+width: 100%;
+height: 253px;
+transition: 5s;
+
+border-radius: 41px 13px;
+}
+.image img :hover{
+transition: 5s;
+
+}
+
+.title{
+text-align: center;
+margin-top: 13px;
+
+}
+.des{
+  text-align: center;
+  padding: 0px;
+  margin-top: -515px;
+  transition: 5s;
+
+
+}
+
+button{
+  margin-top: 100px;
+
+  background: linear-gradient(to right , #68233a ,#f56b94);
+}
+   button {
+    font-style: italic;
+    background: linear-gradient(to right , #0a0708 ,#f56b94);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 44px;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-top: 572px;
+    width: 100%;
+    height: 65px;
+    border-radius: 38px 10px
+
+  }
+
